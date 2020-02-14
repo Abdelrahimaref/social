@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+.Search-Form ::placeholder {
+    color: #939598;
+    opacity: 1; /* Firefox */
+  }
+  
+  .Search-Form ::-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #939598;
+  }
+  
+  .Search-Form ::-ms-input-placeholder { /* Microsoft Edge */
+   color:#939598
+  }
+/*********Nav-Bar Section**********/
+
+.nav-item
+{
+    padding-right: 8px;
+}
+.nav .nav-item>a
+{
+    color: #FFF;
+}
+.Search-Form 
+{
+    padding-right: 20px;
+}
+form .Search-Input {
+    background: rgba(255,255,255, 0.2);
+    border: 0;
+    box-shadow: none;
+    min-width: 235px;
+    color: #fff;
+    height: 26px;
+    border-radius: 13px;
+    font-size: 13px;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+/****** left side section ******/
+
+.profile-card {
+    background: linear-gradient(to bottom, rgba(39,170,225,.8), rgba(28,117,188,.8)), url(../img/1.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 90px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.profile-card img.profile-photo {
+    border: 7px solid #fff;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    top: -30px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.text-white
+{
+    color: #FFF;
+}
+.profile-card h5 a {
+    font-size: 15px;
+}
+.body-left-section
+{
+    margin-top: 50px;
+}
+ul.nav-news-feed li {
+    list-style: none;
+    display: block;
+    padding: 15px 0;
+}
+ul.nav-news-feed li i ,ul.nav-news-feed li ion-icon {
+    font-size: 18px;
+    margin-right: 15px;
+    float: left;
+}
+ul.nav-news-feed .newspaper-outline {
+    color: #8dc63f;
+}
+ul.nav-news-feed .people {
+    color: #662d91;
+}
+ul.nav-news-feed .people-outline
+{
+    color: #ee2a7b;
+}
+ul.nav-news-feed .messages
+{
+    color: #f7941e;
+}
+ul.nav-news-feed .post-icon
+{
+    color: #1c75bc;
+}
+ul.nav-news-feed .cart-sell
+{
+    color:#9e1f63
+}
+ul.nav-news-feed .cart-buy
+{
+    color:#ee2a7b
+}
+
+ul.nav-news-feed li div {
+    position: relative;
+    margin-left: 30px;
+}
+ul.nav-news-feed li div::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid #f1f2f2;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+}
+ul.nav-news-feed li a {
+    color: #6d6e71;
+}
+/******** Middle Section ******/
+.create-post {
+    width: 100%;
+    min-height: 90px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #f1f2f2;
+}
+.create-post .form-group img.profile-photo-md {
+    margin-right: 10px;
+}
+img.profile-photo-md {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.create-post .form-group {
+    margin-bottom: 0;
+    display: inline-flex;
+}
+.form-control {
+    background: #fff;
+    border: 1px solid #f1f2f2;
+    box-shadow: none;
+    border-radius: 4px;
+    color: #939598;
+    width: 100% !important;
+}
+.create-post .form-group .form-control {
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+#exampleTextarea
+{
+    margin: 0px;
+    height: 60px;
+    width: 250px !important;
+}
+.create-post .tools {
+    padding: 8px 0 10px;
+}
+.create-post .tools ul.publishing-tools {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 0;
+}
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.create-post .tools ul.publishing-tools li a {
+    color: #6d6e71;
+    font-size: 18px;
+}
+.btn-primary {
+    background: #27aae1;
+    padding: 7px 25px;
+    border: none;
+    font-size: 14px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+    outline: none;
+    border-radius: 30px;
+}
+/****** Post Section *******/
+.post
+{
+    background-color: #FFF;
+    width: 100%;
+    min-height: 250px;
+    margin-top: 40px;
+}
+.wtited-post
+{
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.emoji
+{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.share
+{
+    width: 100%;
+}
+.comment
+{
+    width: 100%;
+}
+.like
+{
+    width: 100%;
+}
